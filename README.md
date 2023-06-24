@@ -4,7 +4,7 @@
 
 **Блок-схема алгоритма:**
 
-![](examworkblock.jpg)
+![](./examworkblock.jpg)
 
 
 
