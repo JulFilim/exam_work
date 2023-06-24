@@ -4,9 +4,9 @@
 
 **Блок-схема алгоритма:**
 
-![](./examworkblock.jpg)
+![](examworkblock.jpg)
 
-**Код программы:**
+
 
 
 
