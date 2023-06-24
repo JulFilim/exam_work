@@ -43,4 +43,12 @@ for (int i = 0; i < size; i++)
     if (mass[i].Length <= 3)
     { count++; }
 }
-
+string[] newsortedarray = new string[count];
+for (int i = 0; i < count; i++)
+{
+    if (mass[i].Length <= 3)
+    { newsortedarray[i] = mass[i]; }
+}
+System.Console.WriteLine("Полученный массив: ");
+PrintArray(newsortedarray);
+System.Console.WriteLine();
