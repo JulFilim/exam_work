@@ -29,3 +29,18 @@ void PrintArray(string[] arr)
         Console.WriteLine();
     }
 }
+Console.Write("Введите количество строк в массиве: ");
+int size = Number();
+System.Console.WriteLine();
+string[] mass = new string[size];
+Console.WriteLine("Введите строки массива: ");
+System.Console.WriteLine();
+CreateArray(mass, size);
+int count = 0;
+
+for (int i = 0; i < size; i++)
+{
+    if (mass[i].Length <= 3)
+    { count++; }
+}
+
